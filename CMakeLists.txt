@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( DepthMapToPtCloud )
+find_package( OpenCV REQUIRED )
+#find_package ( Eigen3 REQUIRED )
+#SET( EIGEN3_INCLUDE_DIR ${EIGEN3_INCLUDE_DIR} )
+#INCLUDE_DIRECTORIES ( ${EIGEN3_INCLUDE_DIR} )
+add_executable( DepthMapToPtCloud DepthMapToPtCloud.cpp )
+target_link_libraries( DepthMapToPtCloud ${OpenCV_LIBS})

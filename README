@@ -1,0 +1,6 @@
+The energid image is LZW compressed. It needs to be either "deflate" compressed or no compression. The fix for now is converting the image to no compression:
+
+convert -compress none depthImage131107_182133.tiff depthImage131107_182133.none.tiff
+
+#for visualizing point cloud
+http://www.pcl-users.org/SOLVED-Matching-PointCloud-coordinates-with-RGB-image-OpenCV-coordinates-td4024292.html

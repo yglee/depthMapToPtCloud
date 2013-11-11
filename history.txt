@@ -1,0 +1,1000 @@
+  488  ls
+  489  clear
+  490  ls
+  491  cd knLocalMap
+  492  ls
+  493  clear
+  494  ls
+  495  vim K10LocalMapConfig.xml 
+  496  cd ..
+  497  ls
+  498  cd K10RedUpdaterConfig.xml
+  499  ls
+  500  cd knFrameStoreSvc/
+  501  cd K10RedUpdaterConfig.xml
+  502  vim K10RedUpdaterConfig.xml 
+  503  clear
+  504  ls
+  505  pwd
+  506  ls
+  507  clear
+  508  ls
+  509  roversw
+  510  ls
+  511  cd bin
+  512  ls
+  513  ./navMapPrinter -MRN K10Red -MDI 10 -s localmap_tiled
+  514  roversw
+  515  ls
+  516  cd bin/src
+  517  ls
+  518  cd bin
+  519  ls
+  520  cd ..
+  521  sls
+  522  clear
+  523  ls
+  524  cd etc
+  525  ls
+  526  cd knPoseEstimation/
+  527  ls
+  528  cd ..
+  529  ack OdometryToPoseParamters
+  530  ack OdometryToPoseParameters
+  531  vim include/knPoseEstimation/PoseEstimationParameters.h 
+  532  top
+  533  clear
+  534  ls
+  535  pidgin &
+  536  roversw
+  537  ls
+  538  clear
+  539  cd ..
+  540  ls
+  541  clear
+  542  ls
+  543  cd knSvcs
+  544  ls
+  545  cd src
+  546  ls
+  547  cd knActinCameraSvc/
+  548  ls
+  549  vim K10RedActinCameraConfig.xml 
+  550  ls
+  551  roversw
+  552  ./actin.sh
+  553  ls
+  554  ./actin.sh 
+  555  clear
+  556  ls
+  557  ./k10controller.sh 
+  558  ls
+  559  ./actin.sh
+  560  clear
+  561  ls
+  562  cd RoverSW-scripts/
+  563  ls
+  564  clear
+  565  ls
+  566  ./k10controller.sh 
+  567  clear
+  568  ls
+  569  ./k10controller.sh 
+  570  tao_nslist
+  571  ls
+  572  cd ..
+  573  ls
+  574  cd ..
+  575  ls
+  576  cd ..
+  577  l;s
+  578  ls
+  579  cd build
+  580  ls
+  581  cd knSvcs
+  582  ls
+  583  cd src
+  584  ls
+  585  cd knPoseEstimation/
+  586  ls
+  587  make install
+  588  clear
+  589  make install
+  590  ls
+  591  pwd
+  592  cd ..
+  593  ls
+  594  cd ..
+  595  ls
+  596  cd ..
+  597  ls
+  598  cd x86_64_linux_gcc4.4/bin/
+  599  s
+  600  ls
+  601  ls | grep rame
+  602  ./frameStoreConfigPrinter -MRN K10Red -MDI 10
+  603  ./frameStoreConfigPrinter -MRN K10Red -MDI 10 > ~/FRAMES.txt
+  604  kate /home/ylee8/FRAMES.txt 
+  605  ls
+  606  gedit note.text
+  607  ls
+  608  vim note.text
+  609  ls
+  610  cd
+  611  clear
+  612  ls
+  613  roversw
+  614  ls
+  615  cd ..
+  616  cd knSvcs
+  617  ls
+  618  clear
+  619  ls
+  620  cd src
+  621  ls
+  622  cd knPoseEstimation/
+  623  ls
+  624  pwd
+  625  clear
+  626  ls
+  627  vim GlobalToRelativeSvc.cpp 
+  628  clear
+  629  ls
+  630  vim GlobalToRelativeSvc.cpp 
+  631  eclipse &
+  632  top
+  633  exit
+  634  cd ..
+  635  ls
+  636  cd ..
+  637  ls
+  638  cd ..
+  639  ls
+  640  cd packages/
+  641  ls
+  642  cd ../
+  643  ls
+  644  cd home/
+  645  ls
+  646  cd ylee8/
+  647  ls
+  648  cd roversw/
+  649  ls
+  650  cd ..
+  651  cd ~
+  652  ls
+  653  cd RoverSW-scripts/
+  654  ls
+  655  ./k10controller.sh 
+  656  clear
+  657  ls
+  658  ./actin.sh 
+  659  cd ..
+  660  eclipse &
+  661  ssh gramps
+  662  cd /usr/local/irg/apps/RapidLog/
+  663  ls
+  664  ./rapidLogWriter --help
+  665  ./rapidLogWriter -d 17 -D rapid_wheelgroup_sample
+  666  ls
+  667  vi rapidLogWriter 
+  668  ./rapidLogWriter -d 17 -D rapid_wheelgroup_sample
+  669  mkdir /home/ylee8/rapidLog
+  670  ./rapidLogWriter -d 17 -D rapid_wheelgroup_sample
+  671  ./rapidLogWriter -d 10 -D rapid_wheelgroup_sample
+  672  top
+  673  clear
+  674  ls
+  675  cd
+  676  clear
+  677  ls
+  678  roversw
+  679  ls
+  680  cd ..
+  681  ls
+  682  cd knSvcs
+  683  ls
+  684  cd src
+  685  ls
+  686  cd knPoseEstimation/
+  687  ls
+  688  vim GlobalToRelativeSvc.cpp 
+  689  vi PoseSensorFeed.cpp 
+  690  cd ../knClrtyStereo/
+  691  ls
+  692  vi K10RedStereoCalibration.txt 
+  693  vi K10BlackStereoCalibration.txt 
+  694  cd
+  695  cd rapidLog/
+  696  ls
+  697  ls -lrta
+  698  cd bur_2013.11.07-15.12-cdr/
+  699  ls
+  700  ls -lrta
+  701  ls -l K10Red.rapid_rangescan_*
+  702  pidgin 7
+  703  pidgin &
+  704  cd /usr/local/irg/home/
+  705  ls
+  706  cd ylee8/
+  707  ls
+  708  cd roversw/x86_64_linux_gcc4.4/
+  709  ls
+  710  cd bin/
+  711  ls
+  712  vi wheelGroup.conf 
+  713  cd
+  714  ls
+  715  cd 
+  716  cd RoverSW-scripts/
+  717  ls
+  718  ./actin.sh 
+  719  ls
+  720  ./k10controller.sh 
+  721  cd /usr/local/irg/apps/RapidLog/
+  722  ls
+  723  ./rapidLogWriter --domainId 17
+  724  ls
+  725  ls -lrta
+  726  vi rapidLogWriter 
+  727  roversw
+  728  pwd
+  729  cd ..
+  730  ls
+  731  cd build/
+  732  ls
+  733  cd knSvcs
+  734  ls
+  735  cd src
+  736  LS
+  737  clear
+  738  ls
+  739  cd knPoseEstimation/
+  740  ls
+  741  maek install
+  742  make install
+  743  clear
+  744  ls
+  745  make install
+  746  clear
+  747  make install
+  748  clear
+  749  make install
+  750  clear
+  751  make install
+  752  clear
+  753  make install
+  754  clear
+  755  make install
+  756  clear
+  757  make install
+  758  clear
+  759  make install
+  760  clear
+  761  make install
+  762  clear
+  763  make install
+  764  clear
+  765  ls
+  766  pwd
+  767  make install
+  768  clear
+  769  ls
+  770  make install
+  771  clear
+  772  make install
+  773  cd
+  774  clear
+  775  ls
+  776  cd RoverSW-scripts/
+  777  ls
+  778  clear
+  779  ls
+  780  ./k10controller.sh 
+  781  clear
+  782  ls
+  783  \
+  784  pwd
+  785  cd ..
+  786  ls
+  787  cd /usr/local/irg/home/ylee8/roversw
+  788  ls
+  789  cd x86_64_linux_gcc4.4/
+  790  ls
+  791  cd bin/
+  792  ls
+  793  ./ETP -MRN K10Red
+  794  ls
+  795  [wd
+  796  pwd
+  797  ./ETP -MRN K10Red
+  798  clear
+  799  ls
+  800  ls
+  801  ./actin.sh 
+  802  ls
+  803  pwd
+  804  cd /usr/local/irg/
+  805  cd home/
+  806  ls
+  807  cd ylee8/l
+  808  cd ylee8/
+  809  ls
+  810  cd roversw/
+  811  ls
+  812  cd x86_64_linux_gcc4.4/
+  813  ls
+  814  cd bin/
+  815  ls
+  816  cd ..
+  817  ls
+  818  cd lib/
+  819  ls
+  820  cd ..
+  821  ls
+  822  cd include/
+  823  ls
+  824  cd knFrameStore
+  825  ls
+  826  cd ../knFrameStoreSvc/
+  827  ls
+  828  pwd
+  829  cd ...
+  830  ls
+  831  cd ..
+  832  ls
+  833  cd ..
+  834  ls
+  835  cd etc/
+  836  ls
+  837  cd knFrameStoreSvc/
+  838  ls
+  839  vi K10RedUpdaterConfig.xml 
+  840  cd
+  841  clear
+  842  ls
+  843  cp ~/Downloads/VerveSurfaceTelerobotics-201307151639-linux.gtk.x86_64.zip .
+  844  ls
+  845  unzip VerveSurfaceTelerobotics-201307151639-linux.gtk.x86_64.zip 
+  846  ls
+  847  rm *zip
+  848  ls
+  849  cd VerveSurfaceTelerobotics/
+  850  ls
+  851  cd configuration/
+  852  ls
+  853  cd ..
+  854  ls
+  855  ./Verve_Surface_Telerobotics 
+  856  ls
+  857  clear
+  858  ls
+  859  cd
+  860  clear
+  861  ls
+  862  mv VerveSurfaceTelerobotics/ VerveSurfaceTelerobotics2
+  863  ls
+  864  unzip ~/Downloads/VerveSurfaceTelerobotics-201307151639-linux.gtk.x86
+  865  ls
+  866  cd ~/Downloads/
+  867  ls
+  868  unzip VerveSurfaceTelerobotics-201307151639-linux.gtk.x86.zip 
+  869  ls
+  870  cp VerveSurfaceTelerobotics ..
+  871  mv VerveSurfaceTelerobotics ..
+  872  mv VerveSurfaceTelerobotics ../VerveSurfaceTelerobotics
+  873  cd ..
+  874  ls
+  875  rm -rf VerveSurfaceTelerobotics
+  876  ls
+  877  cd ~/Downloads/
+  878  ls
+  879  mv VerveSurfaceTelerobotics ../VerveSurfaceTelerobotics
+  880  cd ..
+  881  ls
+  882  clear
+  883  ls
+  884  cd VerveSurfaceTelerobotics
+  885  ls
+  886  ./Verve_Surface_Telerobotics 
+  887  clear
+  888  ls
+  889  cd ..
+  890  ls
+  891  rm -rf VerveSurfaceTelerobotics
+  892  mv VerveSurfaceTelerobotics2/ VerveSurfaceTelerobotics
+  893  ls
+  894  clear
+  895  ls
+  896  cd VerveSurfaceTelerobotics/
+  897  ls
+  898  ./Verve_Surface_Telerobotics 
+  899  cd
+  900  cealr
+  901  clear
+  902  ls
+  903  eclipse &
+  904  clear
+  905  ls
+  906  cd
+  907  clear
+  908  ls
+  909  eclipse &
+  910  clear
+  911  ls
+  912  roversw
+  913  ls
+  914  clear
+  915  cd ..
+  916  ls
+  917  cd knSvcs/src/
+  918  ls
+  919  cd ..
+  920  cd knRapid/src/
+  921  ls
+  922  cd knFrameStoreSvc/
+  923  ls
+  924  vi K10RedUpdaterConfig.xml 
+  925  cd ..
+  926  cd knSvcs/src/k10controller/
+  927  ls
+  928  ls *.xml
+  929  vi k10Red.xml 
+  930  cd ..
+  931  ls
+  932  cd knPoseEstimation/
+  933  ls
+  934  vi OdometryToPoseSvc.h
+  935  vi OdometryToPoseSvc.cpp
+  936  ls
+  937  clear
+  938  ls
+  939  cp OdometryToPoseSvc.cpp GlobalToRelative.cpp
+  940  cp OdometryToPoseSvc.h GlobalToRelative.h
+  941  clear
+  942  ls
+  943  vim PoseEstimationParamters.xml
+  944  vim PoseEstimationParameters.xml 
+  945  ack suffix 
+  946  ack suffix
+  947  ls *xml
+  948  vim KRexEstimatorConfig.xml 
+  949  vim Centaur2EstimatorConfig.xml 
+  950  vim K10EstimatorConfig.xml 
+  951  ls
+  952  vim GlobalToRelative.cpp 
+  953  mv GlobalToRelative.cpp GlobalToRelativeSvc.cpp
+  954  mv GlobalToRelative.h GlobalToRelativeSvc.h
+  955  vim GlobalToRelativeSvc.cpp 
+  956  vim GlobalToRelativeSvc.h
+  957  ls *xml
+  958  ls
+  959  ls *Paramters*
+  960  clear
+  961  ls
+  962  ls *Paramters
+  963  ls *Parameters
+  964  clear
+  965  ls
+  966  ls *xml
+  967  ack namespace
+  968  ack OdometryToPoseParamters
+  969  ack Odometry
+  970  cler
+  971  clear
+  972  ls
+  973  vim OdometryToPoseSvc.h
+  974  clear
+  975  ls
+  976  vim knPoseEstimation_Export.h 
+  977  vim PoseEstimationParameters.xml 
+  978  clear
+  979  ls
+  980  vim CMakeLists.txt 
+  981  ls
+  982  vim CMakeLists.txt 
+  983  clear
+  984  ls
+  985  pwd
+  986  ls *xml
+  987  vim PoseEstimationParameters.xml 
+  988  vim GlobalToRelativeSvc.h
+  989  vim GlobalToRelativeSvc.cpp 
+  990  clear
+  991  ls
+  992  vim PoseEstimationParameters.xml 
+  993  clear
+  994  ls
+  995  vim PoseEstimationParameters.xml 
+  996  clear
+  997  ls
+  998  eclipse &
+  999  pwd
+ 1000  ls
+ 1001  clear
+ 1002  ls
+ 1003  clear
+ 1004  ls
+ 1005  cd Energid
+ 1006  ls
+ 1007  clar
+ 1008  clear
+ 1009  ls
+ 1010  cd scripts
+ 1011  ls
+ 1012  cd ..
+ 1013  ls
+ 1014  clear
+ 1015  ls
+ 1016  mkdir oldActin
+ 1017  ls
+ 1018  mv Actin_3.2.9-20130925/ oldActin/
+ 1019  ls
+ 1020  mv oldActin/ previousVersions
+ 1021  ls
+ 1022  clear
+ 1023  ls
+ 1024  mv Actin_3.2.11-20131022/ previousVersions/
+ 1025  ls
+ 1026  mv *.sh scripts/
+ 1027  ls
+ 1028  rm *~
+ 1029  ls
+ 1030  ls ~/Downloads/
+ 1031  cp ~/Downloads/actinViewerSourceForNASASetup-3.2.11-20131104-RHEL6-amd64.sh .
+ 1032  clear
+ 1033  ls
+ 1034  chmod +x actinViewerSourceForNASASetup-3.2.11-20131104-RHEL6-amd64.sh 
+ 1035  ls
+ 1036  clear
+ 1037  ls
+ 1038  ./actinViewerSourceForNASASetup-3.2.11-20131104-RHEL6-amd64.sh 
+ 1039  clear
+ 1040  ls
+ 1041  ./actinViewerSourceForNASASetup-3.2.11-20131104-RHEL6-amd64.sh 
+ 1042  clear
+ 1043  ls
+ 1044  rm actinViewerSourceForNASASetup-3.2.11-20131104-RHEL6-amd64.sh 
+ 1045  ls
+ 1046  clear
+ 1047  ls
+ 1048  cp ~/Downloads/actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh .
+ 1049  ls
+ 1050  chmod +x actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh 
+ 1051  ls
+ 1052  clear
+ 1053  ls
+ 1054  ./actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh 
+ 1055  ls
+ 1056  ./actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh 
+ 1057  ./actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh
+ 1058  clear
+ 1059  ls
+ 1060  rm -rf actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh 
+ 1061  ls
+ 1062  cp ~/Downloads/actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh .
+ 1063  clea
+ 1064  rls
+ 1065  ls
+ 1066  clear
+ 1067  ls
+ 1068  chmod +x actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh 
+ 1069  ls
+ 1070  ./actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh 
+ 1071  clear
+ 1072  ls
+ 1073  cd Energid
+ 1074  ls
+ 1075  mv Actin_3.2.11-20131107/ ..
+ 1076  ls
+ 1077  cd ..
+ 1078  ls
+ 1079  mv actinViewerSourceForNASASetup-3.2.11-20131107-RHEL6-amd64.sh scripts
+ 1080  ls
+ 1081  clear
+ 1082  ls
+ 1083  mv Energid/Actin_3.2.11-20131104/ ..
+ 1084  ls
+ 1085  rmdir Energid
+ 1086  ls
+ 1087  cd ..
+ 1088  ls
+ 1089  cd Energid
+ 1090  ls
+ 1091  cd previousVersions/
+ 1092  ls
+ 1093  cd ..
+ 1094  ls
+ 1095  cd scripts
+ 1096  ls
+ 1097  cd ..
+ 1098  ls
+ 1099  clear
+ 1100  ls
+ 1101  cd Actin_3.2.11-20131107/
+ 1102  ls
+ 1103  vim README_BUILD.txt 
+ 1104  cd build && cmake .. && make
+ 1105  clear
+ 1106  ls
+ 1107  cd
+ 1108  clear
+ 1109  ls
+ 1110  cmake 
+ 1111  cd 
+ 1112  clear
+ 1113  ls
+ 1114  cd Energid
+ 1115  ls
+ 1116  clear
+ 1117  ls
+ 1118  touch depthToPtCloud
+ 1119  ls
+ 1120  rm depthToPtCloud 
+ 1121  mkdir depthToPtCloud
+ 1122  ls
+ 1123  cd depthToPtCloud/
+ 1124  ls
+ 1125  clear
+ 1126  vim DisplayImage.cpp
+ 1127  vim CMakeLists.txt
+ 1128  ls
+ 1129  cmake .
+ 1130  make
+ 1131  ls
+ 1132  vim CMakeLists.txt 
+ 1133  cmake --version
+ 1134  clear
+ 1135  ls
+ 1136  mv DepthToPtCloud.cpp
+ 1137  ls
+ 1138  make
+ 1139  which opencv
+ 1140  echo $OpenCV_LIBS
+ 1141  vim ~/.bashrc
+ 1142  clear
+ 1143  ls
+ 1144  source ~/.bashrc
+ 1145  cmake .
+ 1146  make
+ 1147  echo $OpenCV_LIBS
+ 1148  vim ~/.bashrc
+ 1149  echo $RASM_DIR
+ 1150  source ~/.bashrc
+ 1151  clear
+ 1152  ls
+ 1153  cmake .
+ 1154  cmake clean
+ 1155  clear
+ 1156  ls
+ 1157  cmake .
+ 1158  make
+ 1159  clear
+ 1160  ls
+ 1161  rm CMakeFiles/
+ 1162  rm -rf CMakeFiles/
+ 1163  ls
+ 1164  rm CMakeCache.txt 
+ 1165  rm cmake*
+ 1166  ls
+ 1167  rm Makefile 
+ 1168  ls
+ 1169  cmake .
+ 1170  clear
+ 1171  ls
+ 1172  vim cmake_install.cmake 
+ 1173  cmake .
+ 1174  make .
+ 1175  make 
+ 1176  vim DisplayImage.cpp 
+ 1177  make
+ 1178  source ~/.bashrc
+ 1179  clear
+ 1180  cmake .
+ 1181  make
+ 1182  vim ~/.bashrc
+ 1183  clear
+ 1184  ls
+ 1185  pwd
+ 1186  . ~/.bashrc
+ 1187  cmake .
+ 1188  make
+ 1189  . ~/.bashrc
+ 1190  clear
+ 1191  ls
+ 1192  clear
+ 1193  ls
+ 1194  vim DisplayImage.cpp 
+ 1195  vim CMakeLists.txt 
+ 1196  cmake .
+ 1197  make
+ 1198  clear
+ 1199  ls
+ 1200  ./DisplayImage 
+ 1201  cp ~/Downloads/Lenna.png .
+ 1202  ls
+ 1203  ./DisplayImage Lenna.png 
+ 1204  clear
+ 1205  ls
+ 1206  clear
+ 1207  ls
+ 1208  vim DisplayImage
+ 1209  vim DisplayImage.cpp 
+ 1210  ls
+ 1211  cp ~/Downloads/depthImage131107_182133.tiff .
+ 1212  unzip /home/ylee8/Downloads/depthImage131107_182133.tiff.zip 
+ 1213  cp ~/Downloads/depthImage131107_182133.tiff .
+ 1214  ls ~/Downloads/depthImage131107_182133.tiff 
+ 1215  ls ~/Downloads/
+ 1216  unzip /home/ylee8/Downloads/depthImage131107_182133.tiff.zip 
+ 1217  cp ~/Downloads/depthImage131107_182133.tiff .
+ 1218  clear
+ 1219  ls
+ 1220  cd ~/Downloads/
+ 1221  ls
+ 1222  unzip depthImage131107_182133.tiff.zip 
+ 1223  ls
+ 1224  cp depthImage131107_182133.tiff ~/Energid/depthToPtCloud/.
+ 1225  clear
+ 1226  cd ~/Energid/depthToPtCloud/
+ 1227  ls
+ 1228  ./DisplayImage depthImage131107_182133.tiff 
+ 1229  vim depthImage131107_182133.tiff 
+ 1230  vim Lenna.png 
+ 1231  vim depthImage131107_182133.tiff 
+ 1232  vim Lenna.png 
+ 1233  eog depthImage131107_182133.tiff 
+ 1234  vim depthImage131107_182133.tiff 
+ 1235  ./DisplayImage depthImage131107_182133.tiff 
+ 1236  cp ~/Downloads/depthImage131107_182133.tiff .
+ 1237  ls
+ 1238  vim DisplayImage.cpp 
+ 1239  vim DisplayImage
+ 1240  vim DisplayImage.cpp 
+ 1241  clear
+ 1242  ls
+ 1243  make
+ 1244  ./DisplayImage 
+ 1245  ./DisplayImage depthImage131107_182133.tiff 
+ 1246  make
+ 1247  ./DisplayImage depthImage131107_182133.tiff 
+ 1248  clear
+ 1249  ls
+ 1250  make
+ 1251  ./DisplayImage depthImage131107_182133.tiff 
+ 1252  ls -la
+ 1253  clear
+ 1254  ls
+ 1255  make
+ 1256  ./DisplayImage depthImage131107_182133.tiff 
+ 1257  make
+ 1258  ./DisplayImage depthImage131107_182133.tiff 
+ 1259  clear
+ 1260  make
+ 1261  ./DisplayImage depthImage131107_182133.tiff 
+ 1262  ls
+ 1263  clear
+ 1264  ls
+ 1265  make
+ 1266  ./DisplayImage depthImage131107_182133.tiff 
+ 1267  make
+ 1268  ./DisplayImage depthImage131107_182133.tiff 
+ 1269  clear
+ 1270  make
+ 1271  ./DisplayImage depthImage131107_182133.tiff 
+ 1272  ls
+ 1273  make
+ 1274  ./DisplayImage Lenna.png 
+ 1275  clear
+ 1276  make
+ 1277  ./DisplayImage Lenna.png 
+ 1278  ./DisplayImage depthImage131107_182133.tiff 
+ 1279  make
+ 1280  ./DisplayImage depthImage131107_182133.tiff 
+ 1281  clear
+ 1282  ls
+ 1283  chmod +rwx depthImage131107_182133.tiff 
+ 1284  ./DisplayImage depthImage131107_182133.tiff 
+ 1285  ls
+ 1286  ls -la
+ 1287  clear
+ 1288  ls
+ 1289  chmod +rw depthImage131107_182133.tiff 
+ 1290  ls
+ 1291  cp ~/Downloads/depthImage131107_182133.tiff .
+ 1292  ls
+ 1293  rm depthImage131107_182133.tiff 
+ 1294  ls
+ 1295  cp ~/Downloads/depthImage131107_182133.tiff .
+ 1296  ls
+ 1297  ./DisplayImage depthImage131107_182133.tiff 
+ 1298  clear
+ 1299  ls
+ 1300  eog Lenna.png 
+ 1301  eog depthImage131107_182133.tiff 
+ 1302  gdal
+ 1303  scp depthImage131107_182133.tiff zmoratto
+ 1304  ls
+ 1305  rm zmoratto 
+ 1306  ls
+ 1307  scp depthImage131107_182133.tiff zmoratto@bespin:
+ 1308  file depthImage131107_182133.tiff 
+ 1309  ls
+ 1310  scp depthImage131107_182133.tiff zmoratto@lunokhod2:
+ 1311  ls
+ 1312  ssh lunokhod2
+ 1313  ssh zmoratto@lunokhod2
+ 1314  ls
+ 1315  make
+ 1316  ./DisplayImage 
+ 1317  ./DisplayImage depthImage131107_182133.tiff 
+ 1318  make
+ 1319  ./DisplayImage depthImage131107_182133.tiff 
+ 1320  make
+ 1321  ./DisplayImage depthImage131107_182133.tiff 
+ 1322  ccmake ..
+ 1323  ccmake .
+ 1324  ls
+ 1325  e DisplayImage.cpp -nw
+ 1326  emacs DisplayImage.cpp -nw
+ 1327  make
+ 1328  mogrify -format tif Lenna.png 
+ 1329  ./DisplayImage Lenna.tif 
+ 1330  mogrify -type Grayscale Lenna.tif 
+ 1331  ./DisplayImage Lenna.tif 
+ 1332  mogrify -depth 16 Lenna.tif 
+ 1333  ./DisplayImage Lenna.tif 
+ 1334  eog Lenna.tif 
+ 1335  scp Lenna.tif bespin:
+ 1336  scp Lenna.tif zmoratto@bespin:
+ 1337  ssh zmoratto@bespin
+ 1338  ls
+ 1339  eog depthImage131107_182133.tiff 
+ 1340  ./DisplayImage Lenna.tif 
+ 1341  ssh zmoratto@bespin
+ 1342  ls
+ 1343  convert depthImage131107_182133.tiff depthImage131107_182133.deflate.tiff 
+ 1344  scp depthImage131107_182133.deflate.tiff  zmoratto@bespin:
+ 1345  ssh zmoratto@bespin
+ 1346  ls
+ 1347  convert -compress deflate depthImage131107_182133.tiff depthImage131107_182133.deflate.tiff 
+ 1348  convert -compress DEFLATE depthImage131107_182133.tiff depthImage131107_182133.deflate.tiff 
+ 1349  convert -depth 16 -compress DEFLATE depthImage131107_182133.tiff depthImage131107_182133.deflate.tiff 
+ 1350  convert -depth 16 -compress none depthImage131107_182133.tiff depthImage131107_182133.deflate.tiff 
+ 1351  ./DisplayImage depthImage131107_182133.deflate.tiff 
+ 1352  ls
+ 1353  ls -lah
+ 1354  convert depthImage131107_182133.deflate.tiff depthImage131107_182133.deflate.tif
+ 1355  gdalinfo
+ 1356  ls -lah
+ 1357  convert -compress deflate depthImage131107_182133.deflate.tiff depthImage131107_182133.deflate.tif
+ 1358  ls
+ 1359  ls -lah
+ 1360  rm *deflate.tif *deflate.tiff
+ 1361  ls
+ 1362  convert -compress none depthImage131107_182133.tiff depthImage131107_182133.none.tiff 
+ 1363  ls
+ 1364  rm *~
+ 1365  ls
+ 1366  ls -lah
+ 1367  clear
+ 1368  ls
+ 1369  touch README
+ 1370  vim README
+ 1371  history
+ 1372    clear
+ 1373  ls
+ 1374  vim DisplayImage
+ 1375  vim DisplayImage.cpp 
+ 1376  make 
+ 1377  clear
+ 1378  make
+ 1379* 
+ 1380  make
+ 1381  clear
+ 1382  make
+ 1383  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1384  clear
+ 1385  ls
+ 1386  cd
+ 1387  clear
+ 1388  ls
+ 1389  cd Energid
+ 1390  ls
+ 1391  clear
+ 1392  cd depthToPtCloud/
+ 1393  s
+ 1394  make
+ 1395  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1396  clear
+ 1397  make
+ 1398  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1399  clear
+ 1400  make
+ 1401  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1402  make
+ 1403  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1404  clear
+ 1405  make
+ 1406  clear
+ 1407  make
+ 1408  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1409  clear
+ 1410  make
+ 1411  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1412  clear
+ 1413  make
+ 1414  clear
+ 1415  ls
+ 1416  make
+ 1417  clear
+ 1418  make
+ 1419  clear
+ 1420  make
+ 1421  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1422  make
+ 1423  clear
+ 1424  make
+ 1425  clear
+ 1426  make
+ 1427  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1428  clear
+ 1429  make
+ 1430  clear
+ 1431  make
+ 1432  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1433  clear
+ 1434  make
+ 1435  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1436  clear
+ 1437  make
+ 1438  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1439  make
+ 1440  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1441  make
+ 1442  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1443  make
+ 1444  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1445  ls
+ 1446  cp DisplayImage.cpp DisplayImage_back.cpp
+ 1447  vi DisplayImage.cpp 
+ 1448  make
+ 1449  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1450  make
+ 1451  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1452  make
+ 1453  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1454  make
+ 1455  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1456  make
+ 1457  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1458  make
+ 1459  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1460  make
+ 1461  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1462  make
+ 1463  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1464  make
+ 1465  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1466  
+ 1467  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1468  make
+ 1469  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1470  make
+ 1471  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1472  pwd
+ 1473  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1474  ls
+ 1475  make
+ 1476  ./DisplayImage depthImage131107_182133.none.tiff 
+ 1477  ls
+ 1478  cd ..
+ 1479  ls
+ 1480  tar zcvf depthToPtCloud.tar.gz depthToPtCloud
+ 1481  ls
+ 1482  vi notes.txt 
+ 1483  cd depthToPtCloud/
+ 1484  ls
+ 1485  history
+ 1486  /convert
+ 1487  history > history.txt
