@@ -1,3 +1,12 @@
+This project is work in progress. 
+
+To Run:
+./DepthMapToPtCloud images/depthImage131107_182133.none.tiff
+
+TODO: display the point cloud data in PCL visualizer for debugging
+
+NOTES:
+
 The energid image is LZW compressed. It needs to be either "deflate" compressed or no compression. The fix for now is converting the image to no compression:
 
 convert -compress none depthImage131107_182133.tiff depthImage131107_182133.none.tiff
